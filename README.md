@@ -81,7 +81,7 @@ This system interfaces with California court databases to access hearing transcr
 
 - **Frontend**: React 18 with TypeScript, TanStack Query, React Hook Form
 - **Backend**: Node.js/Express with TypeScript
-- **Database**: PostgreSQL with proper indexing
+- **Database**: SQLite (no installation required!)
 - **NLP/ML**: Python with spaCy, transformers, scikit-learn
 - **Search**: Full-text search capabilities
 - **Authentication**: Secure JWT-based auth with role-based access
@@ -126,7 +126,9 @@ This system is designed with several critical ethical safeguards:
 
 ## Getting Started
 
-See [SETUP.md](./SETUP.md) for detailed installation and configuration instructions.
+See [QUICK_START.md](./QUICK_START.md) for the fastest way to run the system (no database installation required!).
+
+For detailed configuration options, see [SETUP.md](./SETUP.md).
 
 ## License
 

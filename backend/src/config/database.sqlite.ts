@@ -1,9 +1,6 @@
 import sqlite3 from 'sqlite3';
 import { open, Database } from 'sqlite';
 import path from 'path';
-import dotenv from 'dotenv';
-
-dotenv.config();
 
 let db: Database | null = null;
 
@@ -55,5 +52,3 @@ export async function closeDatabase(): Promise<void> {
     db = null;
   }
 }
-
-export default { query, initDatabase, getDatabase, closeDatabase };
